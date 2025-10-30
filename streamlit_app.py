@@ -1,5 +1,8 @@
 import streamlit as st
 import pandas as pd
+import matplotlib
+# Use a non-interactive backend to avoid GUI backend errors on headless servers
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 
